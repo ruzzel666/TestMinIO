@@ -1,0 +1,6 @@
+@TestMinIO_HostAddress = http://localhost:5063
+
+GET {{TestMinIO_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
